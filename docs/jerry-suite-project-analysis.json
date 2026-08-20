@@ -1,0 +1,42 @@
+{
+  "project_root": "D:\\Linjerry\\JerryClipboard",
+  "project_name": "JerryClipboard",
+  "software_name_candidate": "JerryClipboard",
+  "package": {
+    "name": "",
+    "path": "",
+    "version": "V1.0",
+    "scripts": {},
+    "dependency_names": []
+  },
+  "frameworks": [],
+  "language": "Java、Kotlin",
+  "source": {
+    "file_count": 2,
+    "line_count": 84,
+    "total_file_count": 2,
+    "total_line_count": 84,
+    "extension_counts": {
+      ".java": 1,
+      ".kt": 1
+    },
+    "category_counts": {
+      "page": 2
+    },
+    "categorized_files": {
+      "page": [
+        "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+        "android/app/src/main/kotlin/com/jerrysuite/jerry_suite/MainActivity.kt"
+      ]
+    }
+  },
+  "routes": [
+    "/"
+  ],
+  "readme_excerpt": "# jerry_suite\nA new Flutter project.\n## Getting Started\nThis project is a starting point for a Flutter application.\nA few resources to get you started if this is your first Flutter project:\n- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)\n- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\n- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)\nFor help getting started with Flutter development, view the\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\nsamples, guidance on mobile development, and a full API reference.",
+  "run_command_candidates": [],
+  "feature_candidates": [
+    "plugins GeneratedPluginRegistrant",
+    "jerry suite MainActivity"
+  ]
+}

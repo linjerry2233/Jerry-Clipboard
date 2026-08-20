@@ -1,0 +1,91 @@
+name: jerry_suite
+description: "Jerry Suite - Cross-platform productivity app (Windows + Android)"
+publish_to: 'none'
+version: 1.2.3+6
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  flutter_riverpod: ^2.6.1
+
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+
+  path_provider: ^2.1.5
+
+  # 桌面专属（Windows/macOS/Linux）—— Android 上不会生效
+  tray_manager: ^0.2.3
+  window_manager: ^0.4.3
+  flutter_acrylic: ^1.1.4
+  bitsdojo_window: ^0.1.6
+  screen_retriever: ^0.2.0
+
+  hotkey_manager: ^0.2.3
+
+  flutter_animate: ^4.5.2
+
+  clipboard_watcher: ^0.3.0
+
+  uuid: ^4.5.1
+
+  image: ^4.5.3
+  archive: ^4.0.9
+
+  intl: ^0.20.2
+
+  crypto: ^3.0.6
+
+  # 云同步依赖
+  cryptography: ^2.7.0
+  path: ^1.9.0
+
+  flutter_local_notifications: ^22.0.1
+  timezone: ^0.11.0
+  fl_chart: ^1.2.0
+  flutter_markdown_plus: ^1.0.12
+  file_selector: ^1.1.0
+  pasteboard: ^0.5.0
+  ffi: ^2.1.4
+  win32: ^5.15.0
+
+  # ============ Android 适配新增 ============
+  # 跨平台打开 URL（替代 explorer.exe）
+  url_launcher: ^6.3.0
+  # Android 后台任务（替代 Timer.periodic 后台模式）
+  workmanager: ^0.9.0
+  # 运行时权限申请（通知等）
+  permission_handler: ^12.0.0
+  # 保持唤醒（番茄钟计时期间）
+  wakelock_plus: ^1.2.5
+  # HTTP 客户端（REST API 云同步）
+  http: ^1.2.0
+  # 纯 Dart SSH 客户端（Android 端 SSH Git 同步）
+  dartssh2: ^2.22.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  isar_generator: ^3.1.0+1
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 24
+  adaptive_icon_background: "#6750A4"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/

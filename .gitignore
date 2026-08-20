@@ -1,0 +1,101 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Windows build artifacts (CMake / Visual Studio)
+/windows/flutter/ephemeral/
+/windows/x64/
+/windows/x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.[Cc]ache
+!*.[Cc]ache/
+
+# Inno Setup 编译产物与临时文件
+# 安装包输出保留在 installer/ 下，但忽略临时/中间文件
+installer/*.tmp
+installer/Setup-*.tmp
+# ISCC 编译日志
+*.iss.log
+
+# Flutter 分析 / 测试临时输出
+/analysis_output.txt
+.flutter-plugins
+
+# 个人图片素材（不入版本库）
+/2233.jpg
+
+# 操作系统 / 编辑器临时文件
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+
+# SSH 私钥文件（绝对不能提交）
+*_ed25519
+*.pem
+id_rsa*
+id_ed25519*
+
+# Android 发布签名（绝对不能提交）
+/android/key.properties
+*.jks
+*.keystore
+
+# 安装包输出目录
+installer/Output/
+
+# 敏感信息文件
+github信息.md
+
+# 真机诊断输出（可能包含设备或仓库信息）
+/logcat*.txt
+/sync_diag*.txt
+
+# 临时工作目录
+.workbuddy/
+.arts/

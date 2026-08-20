@@ -1,0 +1,12 @@
+# Copy this file to android/key.properties and fill in the real release key.
+# android/key.properties, *.jks, and *.keystore are ignored by Git.
+storeFile=C:/secure/path/jerry-suite-release.jks
+storePassword=change-me
+keyAlias=jerry-suite
+keyPassword=change-me
+
+# CI may use these environment variables instead:
+# JERRY_ANDROID_STORE_FILE
+# JERRY_ANDROID_STORE_PASSWORD
+# JERRY_ANDROID_KEY_ALIAS
+# JERRY_ANDROID_KEY_PASSWORD
